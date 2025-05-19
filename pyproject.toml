@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "speee"
+version = "0.1.0"
+description = ""
+authors = ["taishiro <taishiro0303@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.115.12"
+uvicorn = "^0.34.2"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.5"
+httpx = "^0.28.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
